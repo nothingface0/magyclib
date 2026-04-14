@@ -306,7 +306,7 @@ def twostep_hsi(magnetic_field: Union[np.ndarray, list], reference_magnetic_fiel
     # TWOSTEP Center correction
     theta_n, theta_np1 = theta_0_tilde, theta_0_tilde  # Initiate theta for  first  iteration
     n = 0  # Initialise  iteration counter
-    TS_err = np.Inf  # Initial  condition  for  error.
+    TS_err = np.inf  # Initial  condition  for  error.
 
     # ABC is used to remove intensive calculations out of for loop
     abc = -np.einsum(
