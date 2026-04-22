@@ -1,3 +1,8 @@
+> [!NOTE]
+> This is a fork for updating the package to numpy v2, but to also make the benchmark methods work on Windows.
+> For this reason, it removes all gtsam package references, meaning that only some of the
+> benchmark methods work.
+
 # MAGYC: Magnetometer and Gyroscope Calibration
 
 The goal of this library is to provide a set of tools for the calibration of Attitude and Heading Reference System (AHRS) magnetometers and gyroscopes. The proses of calibration consist of determine the scale and non-orthogonality vectors for the magnetometer, soft-iron (SI), and the biases for the gyroscope and the magnetometer, hard-iron (HI).
@@ -14,13 +19,13 @@ To isolate this library's use in the local environment, this project is built wi
 
 If you want to use the library as a pip module, you can build the project with the following command:
 
-``` bash
+```bash
 poetry build
 ```
 
 This will create a `dist` directory with the built `magical` package. Then, you can install the built package with the following command:
 
-``` bash
+```bash
 pip3 install dist/magyclib-<VERSION>-py3-none-any.whl
 ```
 
@@ -28,7 +33,7 @@ pip3 install dist/magyclib-<VERSION>-py3-none-any.whl
 
 If you want to install the library for development purposes, you can install the required packages in the virtual environment with the following command inside the repository:
 
-``` bash
+```bash
 poetry install
 ```
 
