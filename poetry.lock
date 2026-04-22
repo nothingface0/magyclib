@@ -827,35 +827,6 @@ files = [
 numpy = ">=2"
 
 [[package]]
-name = "gtsam"
-version = "4.3a0"
-description = "Georgia Tech Smoothing And Mapping library"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "gtsam-4.3a0-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:c4c31526d6b035f4b1269dd94f22c2c4144b9f35d5a9e5002e60c0a9f2400870"},
-    {file = "gtsam-4.3a0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:694363bee284d71309654ee1f32fce692734959a1bd5bde5944937ac3487fc0d"},
-    {file = "gtsam-4.3a0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7f9e89ace15e5f41eee1ee4aad02143e0db213de1e5939875ba33bb00e5fcd65"},
-    {file = "gtsam-4.3a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0cc1c3d8f908f8f6ed9ef031d4f887e5e671c75b7654e763dcc71b476d5610da"},
-    {file = "gtsam-4.3a0-cp311-cp311-macosx_10_15_x86_64.whl", hash = "sha256:14639092504c10c86ecb3e23059b81a476e0260faf8ef8f177aa8c0e074b30b5"},
-    {file = "gtsam-4.3a0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:ff1d5f64bcce538a72bcef162110ac60854410bcb563ee4dfeba56600f5085bb"},
-    {file = "gtsam-4.3a0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:61f7c73082efc1f57a67b21a99a24baff5724d90f21cdc741557f8b36e02e6c9"},
-    {file = "gtsam-4.3a0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5d5ff3a7075dd8aae39853c7e8fdae81a56c202108217f2b0253d7dfff2aef14"},
-    {file = "gtsam-4.3a0-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:80827c2722ce6728275c665aa3a22d0b0296472028b2e48e29600ccba8033de7"},
-    {file = "gtsam-4.3a0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:16a47b1ae366b5dde35b08bfbd637c22f04be99a948f77a32aeefd4df0982b4d"},
-    {file = "gtsam-4.3a0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:447bcf606afbf18eaa147acfe51edb93a878dec177447fd05033ca5ff6e004dc"},
-    {file = "gtsam-4.3a0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:efdf8d970004dc43aeabd6b6c8947071d513e4846a19b231450987911e0144be"},
-    {file = "gtsam-4.3a0-cp313-cp313-macosx_10_15_x86_64.whl", hash = "sha256:85c41231ce509d075ef2cc11fbe695d297becefec82c1362c7d8e2485f79f7c5"},
-    {file = "gtsam-4.3a0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a16c9183c994e8dc1150a35bc37f7cee539a6714093952a09346204ff5ba8d20"},
-    {file = "gtsam-4.3a0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dd932545b212310896eb065ae92196315b62173101d2ced7231bd23e33dc0658"},
-    {file = "gtsam-4.3a0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fbf56482ed4a109125c34667ed5423bcb1c5166ca1aefa46f483285928761f0c"},
-]
-
-[package.dependencies]
-numpy = ">=1.11.0"
-
-[[package]]
 name = "idna"
 version = "3.11"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -3124,4 +3095,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "bc89d770115a4d7d0fcfaf6393fb4a46ed2f20e807a5adc8f26d6a940229b525"
+content-hash = "6aa463a0fbdab0b580374eb95a2716d9ac2eff03def1a1dfe359b4f8cc944a02"
